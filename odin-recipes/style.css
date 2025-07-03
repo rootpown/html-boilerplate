@@ -11,6 +11,9 @@ main > ul {
     text-align: center;
     padding-bottom: 25px;
 }
+main > ul > li { 
+    margin: 20px;
+}
 .odin-header {
     text-align: center;
     padding: 10px 0;
