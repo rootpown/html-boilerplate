@@ -3,9 +3,18 @@ body {
     margin: 10px;
     box-sizing: border-box;
 }
-main { 
+main {
     background-color: wheat;
     border: 3px solid black;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+main:hover { 
+     background-color: rgb(238, 225, 201);
+
 }
 main > ul { 
     text-align: center;
@@ -39,9 +48,17 @@ main > ul > li > a  {
     font-size: 25px;    
 }
 
-main > ul > li > a > img { 
+main > ul > li > a > img {
     width: 250px;
     height: 250px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+main > ul > li > a > img:hover { 
+    box-shadow: 12px 12px black;
 }
 .odin-block-two {
     display: inline-block;
