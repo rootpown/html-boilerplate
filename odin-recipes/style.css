@@ -1,0 +1,41 @@
+body { 
+    padding: 0;
+    margin: 10px;
+    box-sizing: border-box;
+}
+main { 
+    background-color: wheat;
+    border: 3px solid black;
+}
+.odin-header {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 53px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.odin-header:hover { 
+    text-shadow: rgb(169, 228, 238) 5px 5px 10px;
+    color: #fff;
+    font-size: 55px;
+}
+
+.odin-block-one { 
+    display: inline-block;
+}
+main > ul > li > a  {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;    
+}
+
+main > ul > li > a > img { 
+    width: 250px;
+    height: 250px;
+}
+.odin-block-two {
+    display: inline-block;
+}
